@@ -12,7 +12,7 @@
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Exercitationem unde ex autem cumque odio, dicta nostrum eligendi
 						amet non. Facilis modi mollitia adipisci velit beatae incidunt
-						temporibus culpa error tenetur.
+						temporibus culpa error tenetur. Let's go!
 					</p>
 				</div>
 			</li>
