@@ -4,76 +4,53 @@
 }
 
 #nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #nav > a {
   text-decoration: none;
   color: #000;
-  -webkit-transition: -webkit-text-decoration 1s ease-in 1s;
   transition: -webkit-text-decoration 1s ease-in 1s;
   transition: text-decoration 1s ease-in 1s;
   transition: text-decoration 1s ease-in 1s, -webkit-text-decoration 1s ease-in 1s;
 }
-
 #nav > a:hover {
   text-decoration: underline;
 }
 
 .btn-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 1em 0;
   gap: 0.5em;
 }
-
 .btn-container button {
   background: #369;
   color: #fff;
   border: none;
   border-radius: 5px;
   padding: 0.5em 1em;
-  -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
-
 .btn-container button:hover, .btn-container button:focus-visible {
-  -webkit-filter: grayscale(0.2);
-          filter: grayscale(0.2);
+  filter: grayscale(0.2);
   cursor: pointer;
-  -webkit-box-shadow: 3px 5px 12px -2px #000;
-          box-shadow: 3px 5px 12px -2px #000;
+  box-shadow: 3px 5px 12px -2px #000;
 }
 
 .job-list {
   max-width: 690px;
   margin: 40px auto;
 }
-
 .job-list h2 {
   margin: 0 0 10px;
   text-transform: capitalize;
 }
-
 .job-list ul {
   padding: 0;
 }
-
 .job-list ul li {
   list-style-type: none;
   background: white;
@@ -83,18 +60,13 @@
 }
 
 .salary {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .salary img {
   width: 30px;
 }
-
 .salary p {
   color: #d41406;
   font-weight: bold;
   margin: 10px 4px;
-}
-/*# sourceMappingURL=theme.css.map */
+}/*# sourceMappingURL=theme.css.map */
